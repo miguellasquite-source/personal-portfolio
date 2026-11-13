@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio website">
+  <title>Miguel Lasquite | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">PORTFOLIO<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+        <a href="#projects">Projects</a><a href="#achievements">Achievements</a><a class="nav-contact" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> BSIT STUDENT · ASPIRING DEVELOPER</p>
+        <h1>Hello, I'm<br><span class="gradient-text">Miguel Lasquite.</span></h1>
+        <p class="hero-description">I’m an Information Technology student who enjoys learning how technology works and building useful, user-friendly applications.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View my work <span>↗</span></a>
+          <a class="button button-quiet" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-meta"><span>Based in the Philippines</span><span class="meta-line"></span><span>Open to learning and collaboration</span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative initials card">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="profile-card">
+          <div class="profile-top"><span>✳</span><span>CREATIVE / TECHNICAL</span></div>
+          <div class="monogram">ML<span>.</span></div>
+          <div class="profile-bottom"><span>STUDENT DEVELOPER</span><span>2026</span></div>
+        </div>
+        <span class="floating-tag tag-one">HTML · CSS · JS</span>
+        <span class="floating-tag tag-two">Always learning ✦</span>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="about">
+      <div class="container two-column">
+        <div><p class="eyebrow">01 / ABOUT ME</p><h2>A little about<br><span class="gradient-text">who I am.</span></h2></div>
+        <div class="section-copy">
+          <p>I am an Information Technology student at <strong>La Consolacion University of the Philippines</strong>. I am developing my skills in programming, web development, databases, and problem-solving.</p>
+          <p>I enjoy exploring new tools, working on school projects, and turning ideas into practical digital solutions. My goal is to keep improving as a developer and gain experience through real projects.</p>
+          <div class="info-grid">
+            <div><span class="info-label">EDUCATION</span><strong>BS Information Technology</strong></div>
+            <div><span class="info-label">SCHOOL</span><strong>La Consolacion University of the Philippines</strong></div>
+            <div><span class="info-label">INTERESTS</span><strong>Web development · Programming · UI design</strong></div>
+            <div><span class="info-label">CURRENT FOCUS</span><strong>Building and improving projects</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading"><div><p class="eyebrow">02 / WHAT I DO</p><h2>My technical <span class="gradient-text">toolkit.</span></h2></div><p class="heading-note">Skills I have practiced through coursework and personal projects. Update these to match your actual experience.</p></div>
+      <div class="skill-grid">
+        <article class="skill-card"><span class="skill-icon">⌘</span><h3>Web Development</h3><p>Building structured and responsive pages.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+        <article class="skill-card"><span class="skill-icon">⌁</span><h3>Programming</h3><p>Writing code and solving programming tasks.</p><div class="tags"><span>Java</span><span>Python</span><span>C#</span></div></article>
+        <article class="skill-card"><span class="skill-icon">▤</span><h3>Database</h3><p>Working with data storage and basic queries.</p><div class="tags"><span>MySQL</span><span>SQLite</span></div></article>
+        <article class="skill-card"><span class="skill-icon">◈</span><h3>Tools & Technologies</h3><p>Using development tools for school projects.</p><div class="tags"><span>GitHub</span><span>VS Code</span><span>Android Studio</span><span>OpenCV</span></div></article>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="projects">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects I've <span class="gradient-text">worked on.</span></h2></div><p class="heading-note">A selection of academic projects and practical exercises.</p></div>
+        <div class="project-grid">
+          <article class="project-card"><div class="project-number">PROJECT 01</div><div class="project-visual visual-blue"><span>01</span><b>UBMS<br>Connect</b></div><div class="project-info"><h3>UBMSConnect</h3><p>A web-based activity monitoring dashboard concept for viewing university events, tasks, venue status, and utilities.</p><div class="tags"><span>PHP</span><span>MySQL</span><span>HTML/CSS</span></div></div></article>
+          <article class="project-card"><div class="project-number">PROJECT 02</div><div class="project-visual visual-purple"><span>02</span><b>Student<br>Task Manager</b></div><div class="project-info"><h3>Student Task and Activity Manager</h3><p>An Android application project focused on student accounts and organizing tasks and activities.</p><div class="tags"><span>Java</span><span>XML</span><span>SQLite</span></div></div></article>
+          <article class="project-card"><div class="project-number">PROJECT 03</div><div class="project-visual visual-green"><span>03</span><b>Face<br>Detection</b></div><div class="project-info"><h3>Face Detection Using Python and OpenCV</h3><p>A computer vision project that detects faces through a webcam using a trained recognition model.</p><div class="tags"><span>Python</span><span>OpenCV</span><span>LBPH</span></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="achievements">
+      <div class="two-column">
+        <div><p class="eyebrow">04 / MILESTONES</p><h2>Achievements &<br><span class="gradient-text">activities.</span></h2></div>
+        <div class="timeline">
+          <article class="timeline-item"><span class="timeline-date">ADD YEAR</span><div><h3>Certificate or Seminar Title</h3><p>Add a short description of a seminar, workshop, training, or certificate you completed.</p></div></article>
+          <article class="timeline-item"><span class="timeline-date">ADD YEAR</span><div><h3>Academic Achievement</h3><p>Add an award, recognition, school activity, or accomplishment you are proud of.</p></div></article>
+          <article class="timeline-item"><span class="timeline-date">ONGOING</span><div><h3>Continuous Learning</h3><p>Learning new technologies and improving my development skills through coursework and projects.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <p class="eyebrow">05 / LET'S CONNECT</p><h2>Have a project or<br>an idea in mind?</h2>
+        <p class="contact-copy">Feel free to reach out. I’d be happy to connect, learn, and collaborate.</p>
+        <a class="button button-light" href="mailto:lasquitebalverde@gmail.com">lasquitebalverde@gmail.com <span>↗</span></a>
+        <div class="social-links"><a href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home">PORTFOLIO<span>.</span></a><p>Designed and built by Miguel Lasquite · © <span id="year"></span></p><a href="#home">Back to top ↑</a></div></footer>
+</body>
+</html>
